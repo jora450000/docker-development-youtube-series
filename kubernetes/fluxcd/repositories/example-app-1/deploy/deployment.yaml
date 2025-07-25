@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: example-app-1
-        image: jora450000/hello-app:1.0.0.10
+        image: jora450000/hello-app:1.0.0.9
         ports:
         - containerPort: 5000
         volumeMounts:
