@@ -1,4 +1,4 @@
-# Introduction to Flux CD v2
+# Introduction to Flux CD v2 по-русски
 
 
 Установка docker, kind, настройка
