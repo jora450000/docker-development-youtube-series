@@ -9,7 +9,7 @@ spec:
   selector:
     matchLabels:
       app: example-app-1
-  replicas: 2
+  replicas: 3
   strategy:
     type: RollingUpdate
     rollingUpdate:
@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: example-app-1
-        image: jora450000/hello-app:1.0.0.7
+        image: jora450000/hello-app:1.0.0.12
         ports:
         - containerPort: 5000
         volumeMounts:
