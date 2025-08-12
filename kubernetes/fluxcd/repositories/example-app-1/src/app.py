@@ -1,7 +1,7 @@
 from flask import Flask
 import platform
 import socket
-version = "1.0.0.12"
+version = "1.0.0.11"
 app = Flask(__name__)
 
 @app.route("/")
